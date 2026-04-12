@@ -1,0 +1,114 @@
+/* Custom Color Palette */
+:root {
+    --molten-lava: #780000;
+    --brick-red: #c1121f;
+    --papaya-whip: #fdf0d5;
+    --deep-space-blue: #003049;
+    --steel-blue: #669bbc;
+}
+
+/* Apply palette to body */
+body {
+    background-color: var(--papaya-whip);
+    color: var(--deep-space-blue);
+}
+
+/* Custom navbar style */
+.navbar-custom {
+    background: linear-gradient(90deg, var(--deep-space-blue), var(--steel-blue)) !important;
+    border-color: var(--steel-blue) !important;
+}
+
+.navbar-custom .navbar-brand,
+.navbar-custom .nav-link {
+    color: var(--papaya-whip) !important;
+}
+
+.navbar-custom .navbar-brand:hover,
+.navbar-custom .nav-link:hover {
+    color: var(--steel-blue) !important;
+}
+
+/* Button styles */
+.btn-primary {
+    background-color: var(--brick-red);
+    border-color: var(--brick-red);
+}
+
+.btn-primary:hover {
+    background-color: var(--molten-lava);
+    border-color: var(--molten-lava);
+}
+
+/* Alert styles */
+.alert-success {
+    background-color: var(--steel-blue);
+    border-color: var(--steel-blue);
+    color: var(--papaya-whip);
+}
+
+/* Professional enhancements */
+.card {
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.card-header {
+    border-bottom: 1px solid #e9ecef;
+    border-radius: 10px 10px 0 0 !important;
+}
+
+.table {
+    margin-bottom: 0;
+}
+
+.table th {
+    border-top: none;
+    font-weight: 600;
+    color: var(--deep-space-blue);
+}
+
+.table td {
+    vertical-align: middle;
+}
+
+.btn-group .btn {
+    margin-right: 2px;
+}
+
+.btn-group .btn:last-child {
+    margin-right: 0;
+}
+
+/* Responsive improvements */
+@media (max-width: 768px) {
+    .btn-group {
+        display: flex;
+        flex-direction: column;
+    }
+    .btn-group .btn {
+        margin-bottom: 2px;
+        margin-right: 0;
+    }
+}
+
+.btn-group .btn {
+    margin-right: 2px;
+}
+
+.btn-group .btn:last-child {
+    margin-right: 0;
+}
+
+/* Responsive improvements */
+@media (max-width: 768px) {
+    .btn-group {
+        display: flex;
+        flex-direction: column;
+    }
+    .btn-group .btn {
+        margin-bottom: 2px;
+        margin-right: 0;
+    }
+}
