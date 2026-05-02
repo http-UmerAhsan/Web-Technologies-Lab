@@ -85,6 +85,7 @@ Click "Delete" button to remove record.
 - Add Student Page
 - Update Student Page
 - Delete Action
+<img width="1536" height="1024" alt="ChatGPT Image Apr 24, 2026, 09_31_11 PM" src="https://github.com/user-attachments/assets/3c6da180-954b-405f-b2e1-de95b654980f" />
 
 ---
 
